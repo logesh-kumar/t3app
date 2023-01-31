@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Greet a new contributor
-        uses: logesh-kumar/fancy-echo@v1
+        uses: logesh-kumar/fancy-echo@v1.0.0
         with:
           who-to-greet: 'Jane Doe'
             

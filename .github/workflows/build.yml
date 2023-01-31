@@ -10,4 +10,7 @@ jobs:
     steps:
       - name: Greet a new contributor
         uses: logesh-kumar/fancy-echo@v1
+        with:
+          who-to-greet: 'John Doe'
+            
   

@@ -1,0 +1,16 @@
+name: Deply the app to AWS
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  greet-new-contributor:
+    name: Greet a new contributor
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greet a new contributor
+        uses: logesh-kumar/fancy-echo@v1.2.0
+        with:
+          who-to-greet: 'Jane Doe'
+            
+  
